@@ -92,3 +92,5 @@ const chatBubble = ({
     </div>
   );
 };
+
+export default chatBubble
