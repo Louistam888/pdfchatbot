@@ -5,9 +5,10 @@ const pineconeClientInstance = new Pinecone({
   apiKey: env.PINECONE_API_KEY,
 });
 
-const initPineconeClient = async (): Promise<unknown> => {
-  const pineconeClient = await pineconeClientInstance.init({
-    apiKey: env.PINECONE_API_KEY,
-    environment: env.PINECONE_ENVIRONMENT,
-  });
-};
+// const initPineconeClient = async () => {
+//   const pineconeClient = await pineconeClientInstance.init({
+//     apiKey: env.PINECONE_API_KEY,
+//     environment: env.PINECONE_ENVIRONMENT,
+//   });
+// };
+ 
