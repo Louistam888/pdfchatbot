@@ -1,7 +1,9 @@
 import { Pinecone } from "@pinecone-database/pinecone";
-import { env } from './config';  
+import { env } from "./config";
 
-console.log("thing", env);
+const pineconeClientInstance = new Pinecone({
+  apiKey: env.PINECONE_API_KEY,
+});
 
 // let pineconeClientInstance: PineconeClient | null = null;
 
