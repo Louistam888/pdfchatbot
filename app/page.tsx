@@ -1,4 +1,5 @@
 import Darkmodetoggle from "@/components/ui/darkmodetoggle";
+import Chat from "@/components/ui/chat";
 
 export default function Home() {
   return (
@@ -8,7 +9,9 @@ export default function Home() {
         <Darkmodetoggle />
       </div>
       <div className="flex flex-1 py-4">
-        <div className="w-full"></div>
+        <div className="w-full">
+          <Chat />
+        </div>
       </div>
     </main>
   );
