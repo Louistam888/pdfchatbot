@@ -3,9 +3,7 @@ import { Button } from "./button";
 import { Input } from "./input";
 import { Message } from "ai/react";
 
-type Props = {};
-
-const Chat = (props: Props) => {
+const Chat = () => {
   const messages: Message[] = [
     { role: "assistant", content: "Hello, I am your AI assistant", id: "1" },
     { role: "user", content: "Hello, I am the user", id: "2" },
